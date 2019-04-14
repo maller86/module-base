@@ -1,6 +1,5 @@
 {
     "name": "fjodormaller/module-base",
-    "version": "1.0.0",
     "type": "magento2-module",
     "keywords": ["magento2", "module", "base"],
     "description": "The base module for all module from Fjodor Maller.",
@@ -12,7 +11,7 @@
     "authors": [
         {
             "name": "Fjodor Maller",
-            "homepage": "https://github.com/sinus86",
+            "homepage": "https://github.com/maller86",
             "role": "Developer"
         }
     ],
