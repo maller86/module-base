@@ -1,0 +1,27 @@
+{
+    "name": "fjodormaller/module-base",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "keywords": ["magento2", "module", "base"],
+    "description": "The base module for all module from Fjodor Maller.",
+    "license": "MIT",
+    "require": {
+        "php": "~7.1.0|~7.2.0",
+        "magento/product-community-edition": "2.3.0"
+    },
+    "authors": [
+        {
+            "name": "Fjodor Maller",
+            "homepage": "https://github.com/sinus86",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FjodorMaller\\Base\\": "/"
+        }
+    }
+}

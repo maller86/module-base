@@ -1,0 +1,7 @@
+"Filename","Dateiname"
+"Location","Verzeichnis"
+"Fjodor Maller Modules","Fjodor Maller Module"
+"Default: /var/log/fjodormaller","Standard: /var/log/fjodormaller"
+"If ""No"" selected, all modules from Fjodor Maller will be disabled.","Wenn ""Nein"" gewählt, werden alle Module von Fjodor Maller deaktiviert."
+"If set to ""No"", no logging will be done from Fjodor Maller modules.","Wenn ""Nein"" gewählt, wird ide Protokollierung von allen Fjodor Maller Modulen deaktiviert."
+"File name where all log messages should be written in. Automatically applies "".log"" extension if not given.","Dateiname in der alle Protokollierungsmeldungen eintragen werden. Dateiendung "".log"" wird hinzugefügt, wenn nicht angegeben."

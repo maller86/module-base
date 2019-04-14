@@ -1,0 +1,7 @@
+"Location","Location"
+"Filename","Filename"
+"Fjodor Maller Modules","Fjodor Maller Modules"
+"Default: /var/log/fjodormaller","Default: /var/log/fjodormaller"
+"If ""No"" selected, all modules from Fjodor Maller will be disabled.","If ""No"" selected, all modules from Fjodor Maller will be disabled."
+"If set to ""No"", no logging will be done from Fjodor Maller modules.","If set to ""No"", no logging will be done from Fjodor Maller modules."
+"File name where all log messages should be written in. Automatically applies "".log"" extension if not given.","File name where all log messages should be written in. Automatically applies "".log"" extension if not given."

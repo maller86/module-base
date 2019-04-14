@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="FjodorMaller_Base::system" title="Fjodor Maller Modules" module="FjodorMaller_Base" sortOrder="35" parent="Magento_Backend::system" resource="FjodorMaller_Base::system" />
+    </menu>
+</config>

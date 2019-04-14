@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="fjodormaller" sortOrder="800">
+            <label>Fjodor Maller Modules</label>
+        </tab>
+        <section id="fjodormaller_base" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>General</label>
+            <tab>fjodormaller</tab>
+            <resource>FjodorMaller_Base::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enabled</label>
+                    <source_model>FjodorMaller\Base\Model\System\Config\Source\Yesno</source_model>
+                    <comment>If "No" selected, all modules from Fjodor Maller will be disabled.</comment>
+                </field>
+            </group>
+        </section>
+        <section id="fjodormaller_logging" translate="label" type="text" sortOrder="100000" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Logging</label>
+            <tab>fjodormaller</tab>
+            <resource>FjodorMaller_Base::logging</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Logging</label>
+                <field id="enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enabled</label>
+                    <source_model>FjodorMaller\Base\Model\System\Config\Source\Yesno</source_model>
+                    <comment>If set to "No", no logging will be done from Fjodor Maller modules.</comment>
+                </field>
+                <field id="location" translate="label comment" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Location</label>
+                    <validate>required-entry</validate>
+                    <comment>Default: /var/log/fjodormaller</comment>
+                </field>
+                <field id="filename" translate="label comment" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Filename</label>
+                    <validate>required-entry</validate>
+                    <comment>File name where all log messages should be written in. Automatically applies ".log" extension if not given.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
