@@ -1,5 +1,5 @@
 {
-    "name": "fjodormaller/module-base",
+    "name": "maller86/module-base",
     "type": "magento2-module",
     "keywords": ["magento2", "module", "base"],
     "description": "The base module for all module from Fjodor Maller.",
